@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* Reset CSS  for html5*/
+
+/*-------------------------------------------------------------------
+* margin padding
+-------------------------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+/*-------------------------------------------------------------------
+* block for unspported blowser
+-------------------------------------------------------------------*/
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+display:block;
+}
+
+/*-------------------------------------------------------------------
+* overflow
+-------------------------------------------------------------------*/
+html {
+/*overflow-y:scroll;*/
+}
+
+/*-----------------------------------------------------------------------------
+* font-size
+-------------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6, p, td, th, dt, dd {
+	font-weight:normal;
+}
+
+/*-----------------------------------------------------------------------
+*　table
+-------------------------------------------------------------------------*/
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	/*font-size:inherit;*/
+	font-size:100%;
+}
+/*-----------------------------------------------------------------------
+*　image-border
+-------------------------------------------------------------------------*/
+fieldset, img {
+	border:0;
+}
+img {
+	vertical-align: baseline;
+}
+/*-----------------------------------------------------------------------
+*　text-style
+-------------------------------------------------------------------------*/
+address, caption, cite, em, i, th {
+	font-style:normal;
+	font-weight:normal;
+}
+/*-----------------------------------------------------------------------
+*　list-mark
+-------------------------------------------------------------------------*/
+li {
+	list-style:none;
+}
+/*-----------------------------------------------------------------------
+*　caption th
+-------------------------------------------------------------------------*/
+caption, th {
+	text-align:left;
+}
+/*-----------------------------------------------------------------------
+*　link
+-------------------------------------------------------------------------*/
+a {
+    color:#ffffff;
+	text-decoration:none;
+}
+
+a:link {
+	color:#ffffff;
+	font-style:normal;
+	text-decoration:none;
+}
+a:visited {
+    color:#ffffff;
+    text-decoration:none;
+}
+a:hover {
+	color:#FFFF00;
+	font-style:normal;
+	text-decoration:none;
+}
+a:active {
+    text-decoration:none;
+}
+/*-----------------------------------------------------------------------
+*　sup sub
+-------------------------------------------------------------------------*/
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+/*-----------------------------------------------------------------------
+*　buttun
+-------------------------------------------------------------------------*/
+button {
+	font-size:99%;
+}
+/*-----------------------------------------------------------------------
+*　form
+-------------------------------------------------------------------------*/
+input, textarea, select {
+	outline-offset:0px;
+	font-size:inherit;
+	font-weight:inherit;
+}
+* input, * textarea, * select{
+	font-size:100%;
+}
+/*-----------------------------------------------------------------------
+*　onmouse
+-------------------------------------------------------------------------*/
+button, select, label {
+	cursor:pointer;
+}
+textarea {
+	resize:none;
+	overflow:auto;
+}
+label > input {
+	vertical-align:middle;
+}
+
+/*clearfix*/
+
+body:after, header:after, nav:after, article:after , section:after , hgroup:after , footer:after , aside:after , div:after , ul:after, li:after , .clearfix:after, #container:after, #wrapper:after{
+  clear:both;
+  content: "";
+  display:block;
+  visibility: hidden;
+  height: 0;
+ }
+clearfix IE6, 7
+* html body, * html header, * html nav, * html article ,* html section, * html hgroup,* html footer ,* html aside ,* html div , * html ul , * html .clearfix,* html #contents, *html #wrapper {height: 1%;} 
